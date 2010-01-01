@@ -1,0 +1,140 @@
+
+* html body {height: 100%;}
+
+body{
+	background-image: url("img/headerIE.gif");
+	background-position:25px 5px;
+}
+
+
+div#wrapper {
+	background:url('img/allBG.gif') repeat-y 300px 0;
+	height:100%;
+	width:1039px;
+	background-position:1px 0;
+
+}
+div#header {
+	text-align:center;
+	margin-bottom: 2em;
+	position:relative;
+	z-index:3;
+	height:447px;
+	width:1040px;
+	background: url('img/headerIE.gif') no-repeat;
+	overflow:visible;
+	clear:both;
+	position:relative;
+}
+
+.PostTime {
+	background:url('img/PostTimeBkg.gif');
+	margin: -15px 18px 0 -10px;
+}
+
+#content: {
+	width:720px;
+	background:#fff;
+
+}
+
+#allSideBars{
+	float:left;
+	position:relative;
+	background:none;
+	margin:0;
+	margin-left:-50px;
+	margin-top:180px;
+	width:250px;
+	overflow:hidden;
+
+}
+
+#primary{
+	margin:0;
+	overflow:visible;
+}
+
+
+#tweeter {
+	width:240px;
+	padding:12px 0 30px 10px;
+	margin-bottom:15px;
+	background:url('img/tweetBG.png') no-repeat;
+	behavior: url('/wp-content/themes/parallax/iepngfix.htc');
+}
+
+
+#rss_links {
+	background:url('img/rssBG.png') no-repeat;
+	behavior: url('/wp-content/themes/parallax/iepngfix.htc');
+	padding-top:5px;
+	margin-top:-35px;
+
+	min-height:93px;
+}
+
+#rss_links h3 {
+font-size:1px;
+visibility:hidden;
+}
+
+#rss_links ul{
+
+}
+
+#rss_links ul li{
+
+	display:inline;
+}
+
+#rss_links ul li a{
+	color:#e4c54f;
+	padding-left:18px;
+	margin-top:-20px;
+}
+
+#primary #rss_links ul li a{
+	color:#634401;
+}
+
+#primary #rss_links ul li {
+	display:inline-block;
+	width:86px;
+	margin-left:3px;
+	margin-top:-4px;
+	padding-top:31px;
+	height:27px;
+	float:left;
+}
+
+#primary #rss_links ul #allPostsRSS:hover {
+	background:url('img/rssLeftHover.png') no-repeat;
+	behavior: url('/wp-content/themes/parallax/iepngfix.htc');
+}
+
+#primary #rss_links ul #allCommentsRSS:hover {
+	background:url('img/rssRightHover.png');
+	behavior: url('/wp-content/themes/parallax/iepngfix.htc');
+
+}
+
+#primary #rss_links ul #allCommentsRSS{
+	margin-left:0px;
+	margin-top:-3px;
+	padding:0;
+	width:113px;
+	padding-top:30px;
+	
+}
+
+#primary .recentPostsHolder {
+	margin-top:-65px;
+}
+
+#primary #pages, #primary .recentPostsHolder {
+		behavior: url('/wp-content/themes/parallax/iepngfix.htc');
+}
+.entry-meta {
+	background:url('img/postFooterBG_IE.gif') no-repeat 0px 60px;
+}

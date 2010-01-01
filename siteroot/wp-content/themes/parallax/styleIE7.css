@@ -1,0 +1,72 @@
+
+body {
+
+	background-position:25px 0px;
+}
+
+
+#header{
+background:transparent url('img/header.png') no-repeat scroll 0% 0%;
+margin-top:-5px;
+
+}
+
+
+
+#rss_links {
+	padding-top:5px;
+	margin-top:-25px;
+	margin-bottom:-45px;
+	min-height:93px;
+}
+
+#rss_links h3 {
+font-size:1px;
+visibility:hidden;
+}
+
+#rss_links ul{
+
+}
+
+#rss_links ul li{
+
+	display:inline;
+}
+
+#rss_links ul li a{
+	color:#e4c54f;
+	padding-left:18px;
+	margin-top:20px;
+}
+
+#primary #rss_links ul li a{
+	color:#634401;
+}
+
+#primary #rss_links ul li {
+	display:inline-block;
+	width:86px;
+	margin-left:5px;
+	margin-top:20px;
+	height:27px;
+	float:left;
+}
+
+#primary #rss_links ul #allPostsRSS:hover {
+	background:url('img/rssLeftHover.png') no-repeat;
+}
+
+#primary #rss_links ul #allCommentsRSS:hover {
+	background:url('img/rssRightHover.png');
+
+}
+
+#primary #rss_links ul #allCommentsRSS{
+	margin-left:0px;
+	margin-top:20px;
+	padding:0;
+	width:113px;
+	padding-top:5px;
+	
+}
