@@ -1,14 +1,8 @@
 <div id="allSideBars">	
 	<div id="primary" class="sidebar">
-		<?php if ( !function_exists('dynamic_sidebar')){
-			echo "<ul class=\"xoxo\">";
-			} else {
-			echo "<ul id=\"dynamic_wdgts\" class=\"xoxo dynamic_widget_list\">";
-			}	
-			 // end list type check ?>			
+
+	<ul class="xoxo">
 			
-		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) : // begin primary sidebar widgets ?>			
-	
 			<li id="tweeter">
 		<div id="theTweet">
 			<div id="twinner">
@@ -52,7 +46,7 @@
 							</ul>
 						</li>
 		
-<?php endif; // end primary sidebar widgets  ?>						
+				
 					</ul>		
 	</div><!-- #primary .sidebar -->
 

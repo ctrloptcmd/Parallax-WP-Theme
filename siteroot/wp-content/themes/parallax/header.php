@@ -23,18 +23,8 @@
 
 	<script type="text/javascript" src="<?php echo get_bloginfo('template_directory') ?>/scripts/swfobject.js"></script>	
 	
-	<!-- 	
-		TODO: V.2.0 : DYNAMICS
-		-->	
-		<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-			$($("#dynamic_wdgts .widget")).each(function(index){
-				$("#dynamic_wdgts .widget:eq("+index+")").addClass("dynamic_"+index);
-				$("#dynamic_wdgts .widget:eq("+index+") li:last-child").addClass("last_dynamic_li");
-			});
+	
 
-			});
-		</script>
 
 	<?
 	global $options;
